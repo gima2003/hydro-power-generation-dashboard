@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Hydro Power Generation Prediction System
 
 An AI-driven decision support dashboard designed to predict and analyze hydropower generation availability in Sri Lanka using climate and reservoir data.
@@ -53,3 +54,4 @@ The project is implemented as an end-to-end system consisting of:
 ### Data Exchange
 - JSON-based prediction output
 
+=======

@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---------- Global Theme ---------- */
+body {
+  @apply bg-[#0b0f14] text-slate-200 antialiased;
+}
+
+/* ---------- Glass Card ---------- */
+.glass-card {
+  @apply bg-[#121826]/90 border border-white/10 rounded-2xl p-6 shadow-xl backdrop-blur;
+}
+
+/* ---------- Gold Accent ---------- */
+.gold-text {
+  @apply text-[#d4af37];
+}
+
+.gold-border {
+  @apply border-[#d4af37]/40;
+}
+
+.gold-glow {
+  box-shadow: 0 0 25px rgba(212, 175, 55, 0.15);
+}
+@layer utilities {
+  @keyframes livePulse {
+    0% {
+      opacity: 1;
+      box-shadow: 0 0 0 0 rgba(34, 211, 238, 0.6);
+    }
+    70% {
+      opacity: 0.9;
+      box-shadow: 0 0 0 8px rgba(34, 211, 238, 0);
+    }
+    100% {
+      opacity: 1;
+      box-shadow: 0 0 0 0 rgba(34, 211, 238, 0);
+    }
+  }
+
+  .animate-live {
+    animation: livePulse 2.2s ease-out infinite;
+  }
+}
+
