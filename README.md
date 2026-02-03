@@ -37,6 +37,19 @@ The project is implemented as an end-to-end system consisting of:
   - Provides clear explanations for risk status and system decisions
 
 ---
+## 🛠️ Tech Stack
 
-## 🧩 System Architecture (Conceptual)
+### Machine Learning & Data
+- Python
+- Pandas, NumPy
+- Scikit-learn
+- Google Colab (model development)
+
+### Frontend & Visualization
+- React + Vite
+- Tailwind CSS
+- Recharts
+
+### Data Exchange
+- JSON-based prediction output
 
